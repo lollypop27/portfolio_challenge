@@ -1,4 +1,3 @@
-spec_helper.rb
 require 'rspec'
 require 'capybara/rspec'
 
@@ -6,6 +5,7 @@ require 'middleman-core'
 require 'middleman-core/rack'
 require 'middleman-livereload'
 require 'middleman-deploy'
+require 'middleman-sprockets'
 
 middleman_app = ::Middleman::Application.new
 
